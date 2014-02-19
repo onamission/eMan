@@ -1,0 +1,564 @@
+2013/03/13 08:45:23 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/base/CModule.php(106): CComponent->__get('user')
+#1 /home/bigrings/public_html/eman/protected/models/ActiveRecordWithAttributes.php(51): CModule->__get('user')
+#2 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(2311): ActiveRecordWithAttributes->getDbConnection()
+#3 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(TimingEvents))
+#4 /home/bigrings/public_html/eman/protected/models/TimingEvents.php(23): CActiveRecord::model('TimingEvents')
+#5 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(50): TimingEvents::model()
+#6 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(11): importDemoRidersCommand->loadCatClass()
+#7 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#8 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#10 /home/bigrings/console.php(7): CApplication->run()
+#11 {main}
+---
+2013/03/13 08:45:30 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/base/CModule.php(106): CComponent->__get('user')
+#1 /home/bigrings/public_html/eman/protected/models/ActiveRecordWithAttributes.php(51): CModule->__get('user')
+#2 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(2311): ActiveRecordWithAttributes->getDbConnection()
+#3 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(TimingEvents))
+#4 /home/bigrings/public_html/eman/protected/models/TimingEvents.php(23): CActiveRecord::model('TimingEvents')
+#5 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(50): TimingEvents::model()
+#6 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(11): importDemoRidersCommand->loadCatClass()
+#7 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#8 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#10 /home/bigrings/console.php(7): CApplication->run()
+#11 {main}
+---
+2013/03/13 08:56:22 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/base/CModule.php(106): CComponent->__get('user')
+#1 /home/bigrings/public_html/eman/protected/models/ActiveRecordWithAttributes.php(51): CModule->__get('user')
+#2 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(2311): ActiveRecordWithAttributes->getDbConnection()
+#3 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(TimingEvents))
+#4 /home/bigrings/public_html/eman/protected/models/TimingEvents.php(23): CActiveRecord::model('TimingEvents')
+#5 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(52): TimingEvents::model()
+#6 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(13): importDemoRidersCommand->loadCatClass()
+#7 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#8 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#10 /home/bigrings/console.php(7): CApplication->run()
+#11 {main}
+---
+2013/03/13 09:01:25 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/base/CModule.php(106): CComponent->__get('user')
+#1 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(12): CModule->__get('user')
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#3 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/bigrings/console.php(7): CApplication->run()
+#6 {main}
+---
+2013/03/13 09:01:35 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/base/CModule.php(106): CComponent->__get('user')
+#1 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(12): CModule->__get('user')
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#3 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/bigrings/console.php(7): CApplication->run()
+#6 {main}
+---
+2013/03/13 09:01:46 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/base/CModule.php(106): CComponent->__get('user')
+#1 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(12): CModule->__get('user')
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#3 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/bigrings/console.php(7): CApplication->run()
+#6 {main}
+---
+2013/03/13 09:04:20 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(12): CComponent->__set('user', Object(UserIdentity))
+#1 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /home/bigrings/console.php(7): CApplication->run()
+#5 {main}
+---
+2013/03/13 09:08:24 [error] [php] Missing argument 1 for LoginForm::authenticate(), called in /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php on line 13 and defined (/home/bigrings/public_html/eman/protected/models/LoginForm.php:47)
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#1 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#2 /home/bigrings/console.php(7): CConsoleApplication->run()
+
+2013/03/13 09:09:08 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/base/CModule.php(106): CComponent->__get('user')
+#1 /home/bigrings/public_html/eman/protected/models/LoginForm.php(71): CModule->__get('user')
+#2 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(14): LoginForm->login()
+#3 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#4 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#6 /home/bigrings/console.php(7): CApplication->run()
+#7 {main}
+---
+2013/03/13 09:19:57 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(12): CComponent->__set('user', Object(UserIdentity))
+#1 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /home/bigrings/console.php(7): CApplication->run()
+#5 {main}
+---
+2013/03/13 09:20:06 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(12): CComponent->__set('user', Object(UserIdentity))
+#1 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /home/bigrings/console.php(7): CApplication->run()
+#5 {main}
+---
+2013/03/13 09:27:03 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(12): CComponent->__set('user', Object(UserIdentity))
+#1 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /home/bigrings/console.php(7): CApplication->run()
+#5 {main}
+---
+2013/03/13 09:34:00 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(12): CComponent->__set('user', Object(UserIdentity))
+#1 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /home/bigrings/console.php(7): CApplication->run()
+#5 {main}
+---
+2013/03/13 09:43:14 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(12): CComponent->__set('user', Object(UserIdentity))
+#1 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /home/bigrings/console.php(7): CApplication->run()
+#5 {main}
+---
+2013/03/13 09:46:46 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(12): CComponent->__set('user', Object(UserIdentity))
+#1 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /home/bigrings/console.php(7): CApplication->run()
+#5 {main}
+---
+2013/03/13 09:47:19 [error] [php] include(IdentityUser.php): failed to open stream: No such file or directory (/home/bigrings/public_html/yii/framework/YiiBase.php:423)
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/YiiBase.php(198): import()
+#1 /home/bigrings/public_html/yii/framework/base/CModule.php(387): createComponent()
+#2 /home/bigrings/public_html/yii/framework/base/CModule.php(104): CConsoleApplication->getComponent()
+#3 /home/bigrings/public_html/eman/protected/models/ActiveRecordWithAttributes.php(51): CConsoleApplication->__get()
+#4 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(2311): TimingEvents->getDbConnection()
+#5 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct()
+#6 /home/bigrings/public_html/eman/protected/models/TimingEvents.php(23): model()
+#7 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(54): model()
+#8 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(15): importDemoRidersCommand->loadCatClass()
+#9 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run()
+#10 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#11 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#12 /home/bigrings/console.php(7): CConsoleApplication->run()
+
+2013/03/13 09:52:55 [error] [exception.CException] exception 'CException' with message 'consoleUser and its behaviors do not have a method or closure named "getState".' in /home/bigrings/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/bigrings/public_html/eman/protected/models/ActiveRecordWithAttributes.php(51): CComponent->__call('getState', Array)
+#1 /home/bigrings/public_html/eman/protected/models/ActiveRecordWithAttributes.php(51): consoleUser->getState('mode')
+#2 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(2311): ActiveRecordWithAttributes->getDbConnection()
+#3 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(TimingEvents))
+#4 /home/bigrings/public_html/eman/protected/models/TimingEvents.php(23): CActiveRecord::model('TimingEvents')
+#5 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(54): TimingEvents::model()
+#6 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(15): importDemoRidersCommand->loadCatClass()
+#7 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#8 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#10 /home/bigrings/console.php(7): CApplication->run()
+#11 {main}
+---
+2013/03/13 09:53:10 [error] [exception.CException] exception 'CException' with message 'consoleUser and its behaviors do not have a method or closure named "getState".' in /home/bigrings/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/bigrings/public_html/eman/protected/models/ActiveRecordWithAttributes.php(51): CComponent->__call('getState', Array)
+#1 /home/bigrings/public_html/eman/protected/models/ActiveRecordWithAttributes.php(51): consoleUser->getState('mode')
+#2 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(2311): ActiveRecordWithAttributes->getDbConnection()
+#3 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(TimingEvents))
+#4 /home/bigrings/public_html/eman/protected/models/TimingEvents.php(23): CActiveRecord::model('TimingEvents')
+#5 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(54): TimingEvents::model()
+#6 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(15): importDemoRidersCommand->loadCatClass()
+#7 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#8 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#9 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#10 /home/bigrings/console.php(7): CApplication->run()
+#11 {main}
+---
+2013/03/13 09:56:24 [error] [php] file_get_contents(demo-names.txt): failed to open stream: No such file or directory (/home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php:16)
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#1 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#2 /home/bigrings/console.php(7): CConsoleApplication->run()
+
+2013/03/13 09:57:29 [error] [exception.CException] exception 'CException' with message 'Property "consoleUser.username" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(14): CComponent->__get('username')
+#1 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /home/bigrings/console.php(7): CApplication->run()
+#5 {main}
+---
+2013/03/13 09:59:20 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user_" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/base/CModule.php(106): CComponent->__get('user_')
+#1 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(11): CModule->__get('user_')
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#3 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/bigrings/console.php(7): CApplication->run()
+#6 {main}
+---
+2013/03/13 10:00:09 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user_" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/base/CModule.php(106): CComponent->__get('user_')
+#1 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(12): CModule->__get('user_')
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#3 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/bigrings/console.php(7): CApplication->run()
+#6 {main}
+---
+2013/03/13 10:00:21 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user_" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/base/CModule.php(106): CComponent->__get('user_')
+#1 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(12): CModule->__get('user_')
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#3 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/bigrings/console.php(7): CApplication->run()
+#6 {main}
+---
+2013/03/13 10:05:45 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(12): CComponent->__set('user', Object(UserIdentity))
+#1 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /home/bigrings/console.php(7): CApplication->run()
+#5 {main}
+---
+2013/03/13 10:06:53 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(13): CComponent->__set('user', Object(consoleUser))
+#1 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#3 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /home/bigrings/console.php(7): CApplication->run()
+#5 {main}
+---
+2013/03/13 10:07:43 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.user_" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/base/CModule.php(106): CComponent->__get('user_')
+#1 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(14): CModule->__get('user_')
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#3 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/bigrings/console.php(7): CApplication->run()
+#6 {main}
+---
+2013/03/13 10:10:45 [error] [php] file_get_contents(../demo-names.txt): failed to open stream: No such file or directory (/home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php:18)
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#1 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#2 /home/bigrings/console.php(7): CConsoleApplication->run()
+
+2013/03/13 10:11:07 [error] [php] file_get_contents(../data/demo-names.txt): failed to open stream: No such file or directory (/home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php:18)
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#1 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#2 /home/bigrings/console.php(7): CConsoleApplication->run()
+
+2013/03/13 10:11:44 [error] [php] file_get_contents(data/demo-names.txt): failed to open stream: No such file or directory (/home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php:18)
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#1 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#2 /home/bigrings/console.php(7): CConsoleApplication->run()
+
+2013/03/13 10:12:43 [error] [php] file_get_contents(/home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php../data/demo-names.txt): failed to open stream: No such file or directory (/home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php:18)
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#1 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#2 /home/bigrings/console.php(7): CConsoleApplication->run()
+
+2013/03/13 10:13:19 [error] [php] file_get_contents(/home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php/../data/demo-names.txt): failed to open stream: No such file or directory (/home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php:18)
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#1 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#2 /home/bigrings/console.php(7): CConsoleApplication->run()
+
+2013/03/13 10:30:55 [error] [php] file_get_contents(/home/bigrings/public_html/eman/protected/commands/data/demo-names.txt): failed to open stream: No such file or directory (/home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php:18)
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#1 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#2 /home/bigrings/console.php(7): CConsoleApplication->run()
+
+2013/03/13 10:38:50 [error] [exception.CException] exception 'CException' with message 'importDemoRidersCommand and its behaviors do not have a method or closure named "getRandomTeam".' in /home/bigrings/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(36): CComponent->__call('getRandomTeam', Array)
+#1 /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php(36): importDemoRidersCommand->getRandomTeam()
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importDemoRidersCommand->run(Array)
+#3 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/bigrings/console.php(7): CApplication->run()
+#6 {main}
+---
+2013/03/13 11:00:05 [error] [php] Missing argument 1 for consoleUser::getState(), called in /home/bigrings/public_html/eman/protected/commands/importDemoRidersCommand.php on line 15 and defined (/home/bigrings/public_html/eman/protected/components/consoleUser.php:25)
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#1 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#2 /home/bigrings/console.php(7): CConsoleApplication->run()
+
+2013/03/14 03:29:56 [error] [php] file_get_contents(/home/bigrings/public_html/eman/protected/data/-names.txt): failed to open stream: No such file or directory (/home/bigrings/public_html/eman/protected/commands/importBogusRidersCommand.php:25)
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRidersCommand->run()
+#1 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#3 /home/bigrings/console.php(7): CConsoleApplication->run()
+
+2013/03/14 03:34:05 [error] [php] file_get_contents(/home/bigrings/public_html/eman/protected/data/{ demo }-names.txt): failed to open stream: No such file or directory (/home/bigrings/public_html/eman/protected/commands/importBogusRidersCommand.php:26)
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRidersCommand->run()
+#1 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#3 /home/bigrings/console.php(7): CConsoleApplication->run()
+
+2013/03/14 05:35:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'event_date' in 'where clause'. The SQL statement executed was: SELECT * FROM `timing_events` `t` WHERE event_date<:d.
+2013/03/14 05:35:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'event_date' in 'where clause'' in /home/bigrings/public_html/yii/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/bigrings/public_html/eman/protected/commands/importBogusRacesCommand.php(14): CActiveRecord->findAll('event_date<:d', Array)
+#4 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRacesCommand->run(Array)
+#5 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#6 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#7 /home/bigrings/console.php(7): CApplication->run()
+#8 {main}
+---
+2013/03/14 05:35:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'event_date' in 'where clause'. The SQL statement executed was: SELECT * FROM `timing_events` `t` WHERE event_date<:d.
+2013/03/14 05:35:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'event_date' in 'where clause'' in /home/bigrings/public_html/yii/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/db/CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /home/bigrings/public_html/eman/protected/commands/importBogusRacesCommand.php(14): CActiveRecord->findAll('event_date<:d', Array)
+#4 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRacesCommand->run(Array)
+#5 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#6 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#7 /home/bigrings/console.php(7): CApplication->run()
+#8 {main}
+---
+2013/03/14 05:36:50 [error] [php] Missing argument 1 for TimingRider::getHandicap(), called in /home/bigrings/public_html/yii/framework/base/CComponent.php on line 112 and defined (/home/bigrings/public_html/eman/protected/models/TimingRider.php:119)
+Stack trace:
+#0 /home/bigrings/public_html/eman/protected/commands/importBogusRacesCommand.php(69): TimingRider->__get()
+#1 /home/bigrings/public_html/eman/protected/commands/importBogusRacesCommand.php(24): importBogusRacesCommand->getRandomDuration()
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRacesCommand->run()
+#3 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/bigrings/console.php(7): CConsoleApplication->run()
+
+2013/03/14 08:25:18 [error] [exception.CException] exception 'CException' with message 'TimingDetails and its behaviors do not have a method or closure named "errors".' in /home/bigrings/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(226): CComponent->__call('errors', Array)
+#1 /home/bigrings/public_html/eman/protected/commands/importBogusRacesCommand.php(35): CActiveRecord->__call('errors', Array)
+#2 /home/bigrings/public_html/eman/protected/commands/importBogusRacesCommand.php(35): TimingDetails->errors()
+#3 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRacesCommand->run(Array)
+#4 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#5 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#6 /home/bigrings/console.php(7): CApplication->run()
+#7 {main}
+---
+2013/03/14 08:27:53 [error] [exception.CException] exception 'CException' with message 'Property "TimingDetails.Category" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(160): CComponent->__set('Category', NULL)
+#1 /home/bigrings/public_html/eman/protected/commands/importBogusRacesCommand.php(29): CActiveRecord->__set('Category', NULL)
+#2 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRacesCommand->run(Array)
+#3 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /home/bigrings/console.php(7): CApplication->run()
+#6 {main}
+---
+2013/03/14 16:47:32 [error] [exception.CException] exception 'CException' with message 'Property "TimingDetails.handicapStock" is not defined.' in /home/bigrings/public_html/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(144): CComponent->__get('handicapStock')
+#1 /home/bigrings/public_html/eman/protected/models/TimingEvents.php(127): CActiveRecord->__get('handicapStock')
+#2 /home/bigrings/public_html/eman/protected/commands/importBogusRacesCommand.php(97): TimingEvents->getWinner('net')
+#3 /home/bigrings/public_html/eman/protected/commands/importBogusRacesCommand.php(42): importBogusRacesCommand->calcWinners(Object(TimingEvents))
+#4 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRacesCommand->run(Array)
+#5 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#6 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#7 /home/bigrings/console.php(7): CApplication->run()
+#8 {main}
+---
+2013/03/14 20:35:14 [error] [php] date() expects parameter 2 to be long, string given (/home/bigrings/public_html/eman/protected/commands/importBogusRacesCommand.php:61)
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRacesCommand->run()
+#1 /home/bigrings/public_html/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#3 /home/bigrings/console.php(7): CConsoleApplication->run()
+
+2013/03/27 07:08:38 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1701 Cannot truncate a table referenced in a foreign key constraint (`bigrings_timing_demo`.`timing_details`, CONSTRAINT `fk_detail_rider` FOREIGN KEY (`rider_id`) REFERENCES `bigrings_timing_demo`.`timing_rider` (`id`)). The SQL statement executed was: TRUNCATE TABLE `timing_rider`.
+2013/03/27 07:08:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1701 Cannot truncate a table referenced in a foreign key constraint (`bigrings_timing_demo`.`timing_details`, CONSTRAINT `fk_detail_rider` FOREIGN KEY (`rider_id`) REFERENCES `bigrings_timing_demo`.`timing_rider` (`id`))' in /var/www/yii/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /var/www/yii/framework/db/CDbCommand.php(1286): CDbCommand->execute()
+#1 /var/www/eman/protected/commands/importBogusRidersCommand.php(15): CDbCommand->truncateTable('timing_rider')
+#2 /var/www/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRidersCommand->run(Array)
+#3 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /var/www/console.php(7): CApplication->run()
+#6 {main}
+---
+2013/03/31 20:07:14 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1701 Cannot truncate a table referenced in a foreign key constraint (`bigrings_timing_demo`.`timing_details`, CONSTRAINT `fk_detail_rider` FOREIGN KEY (`rider_id`) REFERENCES `bigrings_timing_demo`.`timing_rider` (`id`)). The SQL statement executed was: TRUNCATE TABLE `timing_rider`.
+2013/03/31 20:07:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1701 Cannot truncate a table referenced in a foreign key constraint (`bigrings_timing_demo`.`timing_details`, CONSTRAINT `fk_detail_rider` FOREIGN KEY (`rider_id`) REFERENCES `bigrings_timing_demo`.`timing_rider` (`id`))' in /var/www/yii/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /var/www/yii/framework/db/CDbCommand.php(1286): CDbCommand->execute()
+#1 /var/www/eman/protected/commands/importBogusRidersCommand.php(15): CDbCommand->truncateTable('timing_rider')
+#2 /var/www/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRidersCommand->run(Array)
+#3 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /var/www/console.php(7): CApplication->run()
+#6 {main}
+---
+2013/03/31 20:17:23 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1701 Cannot truncate a table referenced in a foreign key constraint (`bigrings_timing_demo`.`timing_details`, CONSTRAINT `fk_detail_rider` FOREIGN KEY (`rider_id`) REFERENCES `bigrings_timing_demo`.`timing_rider` (`id`)). The SQL statement executed was: TRUNCATE TABLE `timing_rider`.
+2013/03/31 20:17:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1701 Cannot truncate a table referenced in a foreign key constraint (`bigrings_timing_demo`.`timing_details`, CONSTRAINT `fk_detail_rider` FOREIGN KEY (`rider_id`) REFERENCES `bigrings_timing_demo`.`timing_rider` (`id`))' in /var/www/yii/framework/db/CDbCommand.php:354
+Stack trace:
+#0 /var/www/yii/framework/db/CDbCommand.php(1286): CDbCommand->execute()
+#1 /var/www/eman/protected/commands/importBogusRidersCommand.php(15): CDbCommand->truncateTable('timing_rider')
+#2 /var/www/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRidersCommand->run(Array)
+#3 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#4 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /var/www/console.php(7): CApplication->run()
+#6 {main}
+---
+2013/03/31 20:25:55 [error] [php] Undefined index: credit (/var/www/eman/protected/models/TimingRider.php:187)
+Stack trace:
+#0 /var/www/eman/protected/commands/importBogusRidersCommand.php(20): importBogusRidersCommand->createRandomCredit()
+#1 /var/www/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRidersCommand->run()
+#2 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /var/www/console.php(7): CConsoleApplication->run()
+
+2013/04/01 02:14:45 [error] [php] Undefined index: credit (/var/www/eman/protected/models/TimingRider.php:187)
+Stack trace:
+#0 /var/www/eman/protected/commands/importBogusRidersCommand.php(20): importBogusRidersCommand->createRandomCredit()
+#1 /var/www/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRidersCommand->run()
+#2 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /var/www/console.php(7): CConsoleApplication->run()
+
+2013/04/01 02:23:21 [error] [php] Undefined index: credit (/var/www/eman/protected/models/TimingRider.php:187)
+Stack trace:
+#0 /var/www/eman/protected/commands/importBogusRidersCommand.php(20): importBogusRidersCommand->createRandomCredit()
+#1 /var/www/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRidersCommand->run()
+#2 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /var/www/console.php(7): CConsoleApplication->run()
+
+2013/04/01 02:27:20 [error] [php] Undefined index: credit (/var/www/eman/protected/models/TimingRider.php:187)
+Stack trace:
+#0 /var/www/eman/protected/commands/importBogusRidersCommand.php(20): importBogusRidersCommand->createRandomCredit()
+#1 /var/www/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRidersCommand->run()
+#2 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /var/www/console.php(7): CConsoleApplication->run()
+
+2013/04/01 02:35:50 [error] [php] Undefined index: credit (/var/www/eman/protected/models/TimingRider.php:187)
+Stack trace:
+#0 /var/www/eman/protected/commands/importBogusRidersCommand.php(20): importBogusRidersCommand->createRandomCredit()
+#1 /var/www/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRidersCommand->run()
+#2 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /var/www/console.php(7): CConsoleApplication->run()
+
+2013/04/01 02:44:14 [error] [php] Undefined index: credit (/var/www/eman/protected/models/TimingRider.php:187)
+Stack trace:
+#0 /var/www/eman/protected/commands/importBogusRidersCommand.php(20): importBogusRidersCommand->createRandomCredit()
+#1 /var/www/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRidersCommand->run()
+#2 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /var/www/console.php(7): CConsoleApplication->run()
+
+2013/04/01 02:46:59 [error] [php] Undefined index: credit (/var/www/eman/protected/models/TimingRider.php:187)
+Stack trace:
+#0 /var/www/eman/protected/commands/importBogusRidersCommand.php(20): importBogusRidersCommand->createRandomCredit()
+#1 /var/www/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRidersCommand->run()
+#2 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /var/www/console.php(7): CConsoleApplication->run()
+
+2013/04/01 02:48:20 [error] [php] Undefined index: credit (/var/www/eman/protected/models/TimingRider.php:187)
+Stack trace:
+#0 /var/www/eman/protected/commands/importBogusRidersCommand.php(20): importBogusRidersCommand->createRandomCredit()
+#1 /var/www/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRidersCommand->run()
+#2 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /var/www/console.php(7): CConsoleApplication->run()
+
+2013/04/01 02:49:23 [error] [php] Undefined index: credit (/var/www/eman/protected/models/TimingRider.php:187)
+Stack trace:
+#0 /var/www/eman/protected/commands/importBogusRidersCommand.php(20): importBogusRidersCommand->createRandomCredit()
+#1 /var/www/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRidersCommand->run()
+#2 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /var/www/console.php(7): CConsoleApplication->run()
+
+2013/04/01 02:50:00 [error] [php] Undefined index: credit (/var/www/eman/protected/models/TimingRider.php:187)
+Stack trace:
+#0 /var/www/eman/protected/commands/importBogusRidersCommand.php(20): importBogusRidersCommand->createRandomCredit()
+#1 /var/www/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRidersCommand->run()
+#2 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /var/www/console.php(7): CConsoleApplication->run()
+
+2013/04/01 02:52:34 [error] [php] Undefined index: credit (/var/www/eman/protected/models/TimingRider.php:187)
+Stack trace:
+#0 /var/www/eman/protected/commands/importBogusRidersCommand.php(20): importBogusRidersCommand->createRandomCredit()
+#1 /var/www/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRidersCommand->run()
+#2 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /var/www/console.php(7): CConsoleApplication->run()
+
+2013/04/04 14:08:57 [error] [php] Undefined index: credit (/var/www/eman/protected/models/TimingRider.php:187)
+Stack trace:
+#0 /var/www/eman/protected/commands/importBogusRidersCommand.php(20): importBogusRidersCommand->createRandomCredit()
+#1 /var/www/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRidersCommand->run()
+#2 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /var/www/console.php(7): CConsoleApplication->run()
+
+2013/04/04 14:14:00 [error] [php] Undefined index: default_category (/var/www/eman/protected/commands/importBogusRacesCommand.php:61)
+Stack trace:
+#0 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#1 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#2 /var/www/console.php(7): CConsoleApplication->run()
+
+2013/04/04 14:17:06 [error] [php] Undefined index: Scratch Winner (/var/www/eman/protected/commands/importBogusRacesCommand.php:87)
+Stack trace:
+#0 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#1 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#2 /var/www/console.php(7): CConsoleApplication->run()
+
+2013/04/04 21:04:31 [error] [php] Undefined index: Personal Record (/var/www/eman/protected/models/TimingDetails.php:139)
+Stack trace:
+#0 /var/www/eman/protected/commands/importBogusRacesCommand.php(34): TimingDetails->save()
+#1 /var/www/yii/framework/console/CConsoleCommandRunner.php(68): importBogusRacesCommand->run()
+#2 /var/www/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /var/www/yii/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#4 /var/www/console.php(7): CConsoleApplication->run()
+

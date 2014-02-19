@@ -1,0 +1,32 @@
+2013/05/07 23:18:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/bigrings/public_html/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/bigrings/public_html/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /home/bigrings/public_html/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /home/bigrings/public_html/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /home/bigrings/public_html/yii/framework/base/CModule.php(104): CModule->getComponent('db')
+#4 /home/bigrings/public_html/eman/protected/models/ActiveRecordWithAttributes.php(61): CModule->__get('db')
+#5 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(2311): ActiveRecordWithAttributes->getDbConnection()
+#6 /home/bigrings/public_html/yii/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(TimingDetails))
+#7 /home/bigrings/public_html/eman/protected/models/TimingDetails.php(30): CActiveRecord::model('TimingDetails')
+#8 /home/bigrings/public_html/eman/protected/views/timingDetails/ajax/ridersLeft.php(18): TimingDetails::model()
+#9 /home/bigrings/public_html/yii/framework/web/CBaseController.php(127): require('/home/bigrings/...')
+#10 /home/bigrings/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/bigrings/...', NULL, true)
+#11 /home/bigrings/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/bigrings/...', NULL, true)
+#12 /home/bigrings/public_html/eman/protected/components/myController.php(23): CController->renderPartial('ajax/ridersLeft')
+#13 /home/bigrings/public_html/yii/framework/web/actions/CInlineAction.php(50): myController->actionAjax()
+#14 /home/bigrings/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#15 /home/bigrings/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 /home/bigrings/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /home/bigrings/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 /home/bigrings/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 /home/bigrings/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 /home/bigrings/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#21 /home/bigrings/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /home/bigrings/public_html/yii/framework/web/CWebApplication.php(283): CController->run('ajax')
+#23 /home/bigrings/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('timingDetails/a...')
+#24 /home/bigrings/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#25 /home/bigrings/public_html/eman/index.php(15): CApplication->run()
+#26 {main}
+REQUEST_URI=/eman/index.php/timingDetails/ajax?a=ridersLeft&event_id=25
+HTTP_REFERER=http://bigringsoftware.com/eman/index.php/timingDetails/resultPanel?event_id=25&owner=1
+---
